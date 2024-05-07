@@ -1,13 +1,57 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #0F2027;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-display {
+  width: 600px;
+  padding-bottom: 2rem;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(19px);
+  -webkit-backdrop-filter: blur(19px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.px-3 {
+  padding-inline: 16px;
+}
+
+.heading-signup {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  padding: 20px;
+}
+
+.submit-button-styles {
+  border: none;
+  width: 100%;
+  padding: 0.8rem 0rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #F09819;
+  background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);
+  background: linear-gradient(to right, #EDDE5D, #F09819);
+}
+
+.divider {
+  text-align: center;
+  color: white;
+  margin: 2rem;
 }
